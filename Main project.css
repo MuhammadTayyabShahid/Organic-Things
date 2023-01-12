@@ -1,0 +1,501 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-right: 15px;
+    transition: all 0.4s;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+.nav-item a:hover {
+    color: rgb(20, 219, 20);
+}
+
+.navbar-brand {
+    height: 50px;
+    width: 60px;
+}
+
+.search {
+    height: 45px;
+    outline: none;
+    border: 2px solid rgb(20, 219, 20);
+    background-color: transparent;
+    border-radius: 20px 0 0 20px;
+    border-right: none;
+}
+.yes{
+    font-family: 'Poppins', sans-serif;
+   
+    font-weight: lighter;
+    font-size: large;
+}
+.yes1{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Gemstones', cursive;
+    font-weight:900;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color: rgb(32, 87, 32);
+}
+    .onee{
+        background-color: rgb(187, 123, 123);
+    }
+
+
+.btn1 {
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: rgb(20, 219, 20);
+    color: white;
+    border-radius: 0 20px 20px 0;
+    transition: all 0.4s;
+}
+
+.btn1:hover:hover {
+    background-color: rgb(52, 155, 52);
+}
+
+.navbar-toggler {
+    font-size: 20px;
+    color: black;
+}
+
+.bi-bag-check {
+    font-size: 30px;
+    color: black;
+    cursor: pointer;
+    padding-top: 5px;
+    transition: all 0.4s;
+}
+
+.bi-bag-check:hover {
+    color: rgb(20, 219, 20);
+}
+
+.navbar-toggler {
+    font-size: 20px;
+    color: black;
+}
+
+.navbar-toggler:focus {
+    outline: line;
+    box-shadow: none;
+}
+
+.main {
+    background: url(organic.jpg) no-repeat;
+    background-size: cover;
+    height: 45rem;
+    width: auto;
+    color: white;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+.main p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.main p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.mbtn1 {
+    height: 50px;
+    width: 25%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    transition: all 0.4s;
+}
+
+.mbtn1:hover {
+    background: rgb(52, 155, 52);
+}
+
+.mbtn2 {
+    height: 50px;
+    width: 25%;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 50px;
+    transition: all 0.4s;
+    color: white;
+}
+
+.mbtn2:hover {
+    background-color: rgb(20, 219, 20);
+    color: White;
+    border: none;
+}
+
+.line {
+    height: 6px;
+    width: 37%;
+    background: rgb(99, 199, 143);
+    display: inline-block;
+}
+
+.line1 {
+    height: 6px;
+    width: 24%;
+    background: black;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+.about {
+    background: url(woman-eating-organic-apple-orchard-spring-harvest-summer-fruit-orchard-gardener-girl-apple-basket-vitamin-woman-eating-146841311-removebg.png) no-repeat;
+    background-size: ;
+    height: 90vh;
+    width: 100%;
+}
+
+.main h1 {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+.about p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.about p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.welcome {
+    background: rgb(20, 219, 20);
+
+}
+
+.line2 {
+    height: 6px;
+    width: 30%;
+    background-color: white;
+    display: inline-block;
+}
+
+.welcome h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.welcome .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.welcome i {
+    font-size: 45px;
+    color: rgb(20, 219, 20);
+}
+
+.welcome h2 {
+    font-weight: lighter;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+.product h1 {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+.product p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 100px;
+}
+
+.product p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+
+.star {
+    text-align: end;
+    color: orange;
+}
+
+.product .card {
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+}
+
+.product .card-body {
+    border: 1px dashed rgb(190, 185, 185);
+}
+
+.head1 {
+    font-size: 400;
+    margin: 0;
+}
+
+.per1 {
+    color: rgb(168, 162, 162);
+}
+
+.btnc {
+    height: 50px;
+    width: 50%;
+    outline: none;
+    border: none;
+    color: white;
+    background: rgb(20, 219, 20);
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    transition: all 0.4s;
+}
+
+.btnc:hover {
+    color: rgb(20, 219, 20);
+    outline: none;
+    border: 1px solid rgb(20, 219, 20);
+    background: transparent;
+    border-radius: 50px;
+}
+
+
+.discount {
+    background: rgb(20, 219, 20);
+    color: white;
+}
+.dbtn{
+    height:50px ;
+    width:75% ;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: white;
+    border-radius: 50px;
+    margin: 0 auto;
+    display: block;
+    font-weight: lighter;
+    transition: all 0.4s;
+}
+.dbtn:hover{
+    background-color:rgb(72, 150, 72);
+}
+
+
+
+
+
+
+
+.store h1 {
+    font-size: 4rem;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Gemstones', cursive;
+}
+
+.store p:nth-child(1) {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.store p:nth-child(2) {
+    font-size: 18px;
+    color: grey;
+}
+.store i{
+    font-size: 45px;
+}
+.store .card{
+    border-radius: 0;
+    border: none;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.store .card:hover{
+    background: rgb(20, 219, 20);
+    color: white;
+}
+.store .card:hover .per1{
+    color: white;
+}
+.seller h1{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.yes{
+    padding-left: 107px !important;
+    padding-bottom: 30px;
+}
+.seller i{
+    color: orange;
+}
+.seller .card{
+    border-radius:0 ;
+}
+.one{
+    font-size: smaller;
+    font-weight: lighter;
+}
+.one1{
+    font-size: smaller;
+    font-weight: lighter;
+}
+.one2{
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+
+
+
+
+
+
+
+
+
+.contact{
+    width: 100%;
+    background: rgb(20, 219, 20);
+}
+.contact h1{
+    font-size: 3rem;
+    font-weight: bold;
+    color: white;
+}
+.contact p{
+    color: white;
+}
+.circle{
+    height:60px ;
+    width:60px ;
+    border-radius:50% ;
+    background-color:white ;
+    color:black ;
+    text-align:center ;
+    padding-top: 15px;
+    font-size: 18px;
+}
+.contact input{
+    height:40px ;
+    width: 70%;
+    border:none ;
+    outline:none ;
+    background-color:white ;
+    margin-top:10px ;
+    padding: 10px;
+}
+.contact textarea{
+    height:100px ;
+    width: 70%;
+    border:none ;
+    outline:none ;
+    background-color:white ;
+    margin-top:10px ;
+    padding: 10px;
+}
+.cbtn{
+    height:50px ;
+    width: 40%;
+    outline:none;
+    border: none;
+    color:black ;
+    background: white;
+    border-radius:50px ;
+    font-weight: lighter;
+    transition: all 0.3s;
+}
+.cbtn:hover{
+    background:rgb(52, 155, 52);
+}
+.zero{
+    border-radius: 15px;
+}
+.zero1{
+    border-radius: 15px;
+}
+.zero2{
+    border-radius: 15px;
+}
+#zero3{
+    border-radius: 15px;
+    height: 140px;
+}
+
+
+
+
+
+
+
+
+
+.footer{
+    background:gray;
+}
+.s1{
+    height: 40px;
+    width: 40px;
+    background-color: transparent;
+    border: 1px solid red;
+    color:red;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 9px;
+    margin-left: 10px;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+.s1:hover{
+    background-color:black;
+       border: none;
+}
+.footer p{
+    color:black;
+    font-family: 'Rubik Gemstones', cursive;
+}
+.noo{
+    font-family: 'Rubik Gemstones', cursive;
+    color: black !important;
+}
+
+
+
+
+
+
